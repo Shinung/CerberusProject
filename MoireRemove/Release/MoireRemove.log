@@ -1,0 +1,20 @@
+﻿  MoireRemove.cpp
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+MoireRemove.cpp(159): warning C4018: '<': signed/unsigned mismatch
+MoireRemove.cpp(166): warning C4018: '<': signed/unsigned mismatch
+MoireRemove.cpp(190): warning C4018: '<': signed/unsigned mismatch
+MoireRemove.cpp(191): warning C4018: '<': signed/unsigned mismatch
+MoireRemove.cpp(201): warning C4018: '<': signed/unsigned mismatch
+MoireRemove.cpp(208): warning C4018: '<': signed/unsigned mismatch
+MoireRemove.cpp(241): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+MoireRemove.cpp(255): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\Shinung\Documents\Visual Studio 2017\Projects\MetamongProject\Metamon\Release\MoireRemove.lib and object C:\Users\Shinung\Documents\Visual Studio 2017\Projects\MetamongProject\Metamon\Release\MoireRemove.exp
+  Generating code
+  1 of 364 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  MoireRemove.vcxproj -> C:\Users\Shinung\Documents\Visual Studio 2017\Projects\MetamongProject\Metamon\Release\MoireRemove.dll

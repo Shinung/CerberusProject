@@ -1,0 +1,14 @@
+﻿<Window x:Class="Metamon.FourthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="문자인식" Height="438" Width="705">
+    <Grid>
+        <TextBox Name="txtBox" HorizontalAlignment="Left" Height="80" Margin="507,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" IsReadOnly="True"/>
+        <Label Content="Result" HorizontalAlignment="Left" Height="24" Margin="507,250,0,0" VerticalAlignment="Top" Width="78"/>
+        <Image Name="img_result" HorizontalAlignment="Left" Height="358" Margin="27,21,0,0" VerticalAlignment="Top" Width="461" Stretch="Fill"/>
+        <Button Name="btn_img" Content="이미지 고르기" HorizontalAlignment="Left" Height="34" Margin="507,42,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click"/>
+        <Button Name="btn_label" Content="레이블링" HorizontalAlignment="Left" Height="34" Margin="507,100,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_2" IsEnabled="False"/>
+        <Button Name="btn_optimize" Content="레이블 최적화" HorizontalAlignment="Left" Height="34" Margin="507,154,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_3" IsEnabled="False"/>
+        <Button Name="btn_find" Content="문자 얻기" HorizontalAlignment="Left" Height="34" Margin="507,210,0,0" VerticalAlignment="Top" Width="101" RenderTransformOrigin="0.522,2.516" Click="Button_Click_4" IsEnabled="False"/>
+    </Grid>
+</Window>

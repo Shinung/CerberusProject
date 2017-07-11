@@ -1,0 +1,18 @@
+﻿<Window x:Class="Metamon.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metamon"
+        mc:Ignorable="d"
+        Title="Moire" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btn_Moire" Content="모아레 제거" HorizontalAlignment="Left" Height="63" Margin="288.622,30.624,0,0" VerticalAlignment="Top" Width="173.771" Click="btn_Moire_Click"/>
+        <Button x:Name="btn_Save" Content="이미지 저장" HorizontalAlignment="Left" Height="63" Margin="288.622,202.253,0,0" VerticalAlignment="Top" Width="173.771" Click="btn_Save_Click"/>
+        <TextBox x:Name="tb_Moire" HorizontalAlignment="Left" Height="63" Margin="51.738,30.624,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195.081"/>
+        <TextBox x:Name="tb_Save" HorizontalAlignment="Left" Height="63" Margin="51.738,202.253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195.081"/>
+        <Button x:Name="btn_car" Content="번호판 추출" HorizontalAlignment="Left" VerticalAlignment="Top" Width="173.771" Margin="288.622,115.7,0,0" Height="63" Click="btn_car_Click"/>
+        <TextBox x:Name="tb_car" HorizontalAlignment="Left" Height="63" Margin="51.738,115.7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195.081"/>
+
+    </Grid>
+</Window>

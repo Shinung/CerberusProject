@@ -1,0 +1,53 @@
+﻿<Window x:Class="Metamon.FirstWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metamon"
+        mc:Ignorable="d"
+        Title="Metamon" Height="300" Width="300" IsVisibleChanged="Window_IsVisibleChanged" WindowStyle="ToolWindow" Closed="Window_Closed" Loaded="Window_Loaded">
+    <Canvas Name="fwCanvas" Margin="5, 5, 5, 5">
+        <Image x:Name="imgCam" Height="100" Width="100"/>
+
+        <Ellipse Name="ellipsePoint" Canvas.Left="50" Canvas.Top="150" 
+                 Width="10" Height="10"
+                 Fill="Yellow" StrokeThickness="0"
+                 />
+
+        <Grid Name="gridSecondWin" Width="100" Height="100"
+              MouseLeftButtonUp="gridSecondWin_MouseLeftButtonUp">
+            <Rectangle Fill="Red" />
+            <TextBlock Text="Moire" FontSize="24"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Name="gridThirdWin" Width="100" Height="100"
+              Canvas.Left="105" MouseLeftButtonUp="gridThirdWin_MouseLeftButtonUp">
+            <Rectangle Fill="Green" />
+            <TextBlock Text="Magic Cam" FontSize="24"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Name="gridFourthWin" Width="100" Height="100"
+              Canvas.Left="210" MouseLeftButtonUp="gridFourthWin_MouseLeftButtonUp">
+            <Rectangle Fill="Blue" />
+            <TextBlock Text="Recognition Word" FontSize="24"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Grid>
+
+        <Grid Name="gridExit" Width="100" Height="100"
+              Canvas.Left="320" MouseLeftButtonUp="gridExit_MouseLeftButtonUp">
+            <Rectangle Fill="Black" />
+            <TextBlock Text="EXIT" FontSize="24" Foreground="White"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Grid>
+    </Canvas>
+</Window>

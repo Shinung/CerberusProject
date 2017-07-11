@@ -1,0 +1,13 @@
+﻿  FindLetter.cpp
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\OpenCV\OpenCV310\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+FindLetter.cpp(175): warning C4018: '<': signed/unsigned mismatch
+FindLetter.cpp(196): warning C4018: '<': signed/unsigned mismatch
+FindLetter.cpp(218): warning C4154: deletion of an array expression; conversion to pointer supplied
+     Creating library C:\Users\Shinung\Documents\Visual Studio 2017\Projects\MetamongProject\Metamon\Release\FindLetter.lib and object C:\Users\Shinung\Documents\Visual Studio 2017\Projects\MetamongProject\Metamon\Release\FindLetter.exp
+  Generating code
+  All 548 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FindLetter.vcxproj -> C:\Users\Shinung\Documents\Visual Studio 2017\Projects\MetamongProject\Metamon\Release\FindLetter.dll
